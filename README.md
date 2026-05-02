@@ -1,16 +1,46 @@
-# React + Vite
+# Bi-Co Marketplace 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple web application built to explore how different interaction styles affect usability in a campus marketplace.
 
-Currently, two official plugins are available:
+## Project Goal
+This project compares two interface designs:
+- **Browsing Interface** : users scroll through all items
+- **Guided Interface** : users choose a category first
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The goal is to evaluate which interaction is easier, faster, and more preferred by users.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## HCI Focus
+We are testing:
+- Ease of use
+- Efficiency (time + clicks)
+- Cognitive load
+- User preference
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+- View items (image, title, price, category)
+- Search (in browsing interface)
+- Category selection (in guided interface)
+- Item detail modal
+- Save items
+- Contact seller (simulated)
+
+---
+
+## Tech Stack
+- React (Vite)
+- JavaScript
+- CSS
+
+---
+
+## How to Run
+
+```bash
+npm install
+npm run dev
+
+Then open: http://localhost:5173
